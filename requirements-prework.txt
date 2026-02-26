@@ -1,9 +1,0 @@
-numpy
-pandas
-matplotlib
-scipy
-jupyter
-ipykernel
-requests
-pytest
-python-dotenv

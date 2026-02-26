@@ -1,10 +1,18 @@
-def add_numbers(a, b):
-    """
-    Returns the sum of two numbers.
-    """
-    return a + b
+# broken_1.py — Fix the SyntaxError
+#
+# Run this file: python broken/broken_1.py
+# Read the traceback. Then fix the bug and run again until it exits with no errors.
+#
+# Hint: Python requires a colon (:) at the end of every block header.
+#       Block headers include: def, if, else, elif, for, while, class.
+# Hint: The caret (^) in a SyntaxError traceback points to where Python got confused.
+#       The actual mistake is often on that line or the line immediately above it.
 
 
-# Intentional bug: wrong argument count
-result = add_numbers(5,3)
-print("Result:", result)
+def greet(name) :
+    message = f"Hello, {name}! Welcome to the debugging loop."
+    return message
+
+
+if __name__ == "__main__":
+    print(greet("engineer"))
